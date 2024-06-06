@@ -1,0 +1,30 @@
+{
+  "name": "micro-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@9.1.4",
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:sub": "pnpm --filter=sub-app dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@micro-zoe/micro-app": "1.0.0-rc.5",
+    "@vitejs/plugin-vue-jsx": "4.0.0",
+    "naive-ui": "2.38.2",
+    "nanoid": "3.3.6",
+    "seemly": "0.3.8",
+    "unocss": "0.60.4",
+    "vue": "^3.4.21",
+    "vue-router": "4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
